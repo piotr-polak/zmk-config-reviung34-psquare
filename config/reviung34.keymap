@@ -167,10 +167,10 @@
             &trans     &trans     &trans     &trans     &trans         &trans     &trans     &trans     &trans     &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-            &trans     &trans     &reb_ug RGB_HUD &trans     &trans         &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &trans  &trans
+            &trans     &trans     &rgb_ug RGB_HUD &trans     &trans         &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &trans  &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-            &trans     &rgb_ug RGB_TOG     &rfb_ug RGB_HUI	     &trans     &trans    &trans    &kp C_PREV &kp C_NEXT &trans     &trans
+            &trans     &rgb_ug RGB_TOG     &rgb_ug RGB_HUI	     &trans     &trans    &trans    &kp C_PREV &kp C_NEXT &trans     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &kp C_PP   &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
