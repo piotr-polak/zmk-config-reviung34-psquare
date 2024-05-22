@@ -40,8 +40,7 @@
             tap-ms = <0>;
 	    #binding-cells = <0>;
             bindings
-                = <&macro_tap_time 10>
-		, <&kp SPACE>
+                = <&kp SPACE>
 		, <&macro_tap_time 500>
 		, <&macro_press &mo 1>
                 , <&macro_tap &rgb_ug RGB_COLOR_HSB(128,100,100)>
