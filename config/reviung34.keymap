@@ -40,9 +40,7 @@
             tap-ms = <0>;
 	    #binding-cells = <0>;
             bindings
-                = <&kp SPACE>
-		, <&macro_tap_time 500>
-		, <&macro_press &mo 1>
+                = <&macro_press &mo 1>
                 , <&macro_tap &rgb_ug RGB_COLOR_HSB(128,100,100)>
                 , <&macro_pause_for_release>
                 , <&macro_release &mo 1>
@@ -114,7 +112,7 @@
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ / ?      │
             &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                        &lt NAV SPACE &lt MED TAB    &lt SYM ENTER &lt NUM BSPC
+                                        &mt &det_leyer_one SPACE &lt MED TAB    &lt SYM ENTER &lt NUM BSPC
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
