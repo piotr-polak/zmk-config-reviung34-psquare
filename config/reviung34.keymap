@@ -183,12 +183,12 @@
             &trans     &trans     &trans     &trans     &trans         &trans     &trans     &trans     &trans     &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-            &trans     &trans     &rgb_ug RGB_HUD &rgb_ug RGB_BRI &rgb_ug RGB_SAI &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &trans  &trans
+            &trans     &trans           &rgb_ug RGB_HUD &rgb_ug RGB_BRI &rgb_ug RGB_SAI         &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &trans &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-            &trans     &rgb_ug RGB_TOG  &rgb_ug RGB_HUI	&rgb_ug RGB_BRD &rgb_ug RGB_SAD &trans    &trans    &kp C_PREV &kp C_NEXT &trans     &trans
+            &trans     &rgb_ug RGB_TOG  &rgb_ug RGB_HUI	&rgb_ug RGB_BRD &rgb_ug RGB_SAD         &kp C_PP &kp   C_PREV   &kp C_NEXT   &trans  &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &trans     &trans         &kp C_PP   &trans
+                                             &trans     &trans         &trans   &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
